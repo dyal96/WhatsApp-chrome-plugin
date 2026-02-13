@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp CRM",
+  "version": "1.0",
+  "description": "WhatsApp CRM - Send bulk messages and scrape group contacts",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
